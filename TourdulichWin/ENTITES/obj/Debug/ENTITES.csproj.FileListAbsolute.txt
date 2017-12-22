@@ -1,0 +1,13 @@
+C:\Users\Haou\source\repos\TourdulichWin\ENTITES\bin\Debug\ENTITES.exe.config
+C:\Users\Haou\source\repos\TourdulichWin\ENTITES\bin\Debug\ENTITES.exe
+C:\Users\Haou\source\repos\TourdulichWin\ENTITES\bin\Debug\ENTITES.pdb
+C:\Users\Haou\source\repos\TourdulichWin\ENTITES\bin\Debug\EntityFramework.dll
+C:\Users\Haou\source\repos\TourdulichWin\ENTITES\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Haou\source\repos\TourdulichWin\ENTITES\bin\Debug\EntityFramework.xml
+C:\Users\Haou\source\repos\TourdulichWin\ENTITES\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Haou\source\repos\TourdulichWin\ENTITES\obj\Debug\ENTITES.csprojResolveAssemblyReference.cache
+C:\Users\Haou\source\repos\TourdulichWin\ENTITES\obj\Debug\ENTITES.Properties.Resources.resources
+C:\Users\Haou\source\repos\TourdulichWin\ENTITES\obj\Debug\ENTITES.csproj.GenerateResource.Cache
+C:\Users\Haou\source\repos\TourdulichWin\ENTITES\obj\Debug\ENTITES.csproj.CoreCompileInputs.cache
+C:\Users\Haou\source\repos\TourdulichWin\ENTITES\obj\Debug\ENTITES.exe
+C:\Users\Haou\source\repos\TourdulichWin\ENTITES\obj\Debug\ENTITES.pdb

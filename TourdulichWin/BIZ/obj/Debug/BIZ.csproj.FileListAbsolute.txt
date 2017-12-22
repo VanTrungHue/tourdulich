@@ -1,0 +1,16 @@
+C:\Users\Haou\source\repos\TourdulichWin\BIZ\bin\Debug\BIZ.exe.config
+C:\Users\Haou\source\repos\TourdulichWin\BIZ\bin\Debug\BIZ.exe
+C:\Users\Haou\source\repos\TourdulichWin\BIZ\bin\Debug\BIZ.pdb
+C:\Users\Haou\source\repos\TourdulichWin\BIZ\bin\Debug\EntityFramework.dll
+C:\Users\Haou\source\repos\TourdulichWin\BIZ\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Haou\source\repos\TourdulichWin\BIZ\bin\Debug\EntityFramework.xml
+C:\Users\Haou\source\repos\TourdulichWin\BIZ\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Haou\source\repos\TourdulichWin\BIZ\obj\Debug\BIZ.csprojResolveAssemblyReference.cache
+C:\Users\Haou\source\repos\TourdulichWin\BIZ\obj\Debug\BIZ.Properties.Resources.resources
+C:\Users\Haou\source\repos\TourdulichWin\BIZ\obj\Debug\BIZ.csproj.GenerateResource.Cache
+C:\Users\Haou\source\repos\TourdulichWin\BIZ\obj\Debug\BIZ.csproj.CoreCompileInputs.cache
+C:\Users\Haou\source\repos\TourdulichWin\BIZ\obj\Debug\BIZ.exe
+C:\Users\Haou\source\repos\TourdulichWin\BIZ\obj\Debug\BIZ.pdb
+C:\Users\Haou\source\repos\TourdulichWin\BIZ\bin\Debug\ENTITIES.dll
+C:\Users\Haou\source\repos\TourdulichWin\BIZ\bin\Debug\ENTITIES.pdb
+C:\Users\Haou\source\repos\TourdulichWin\BIZ\bin\Debug\ENTITIES.dll.config

@@ -1,0 +1,59 @@
+﻿@model ENTITIES.chitietthanhtoan
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>chitietthanhtoan</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.idchitiet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.idchitiet)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tenchiphi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tenchiphi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.soluong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.soluong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.gia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.gia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.phieuthanhtoan.tenphieu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.phieuthanhtoan.tenphieu)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

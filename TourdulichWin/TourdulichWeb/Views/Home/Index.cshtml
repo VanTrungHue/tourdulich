@@ -1,0 +1,143 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>ASP.NET</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Khách hàng</h2>
+        <p>
+            Quản lý khách hàng
+        </p>
+        <p>
+            @using (Html.BeginForm("Index", "khachhangs"))
+            {
+                <button class="btn btn-default">Xem chi tiết &raquo;</button>
+
+            }
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Nhân viên</h2>
+        <p>
+            Quản lý nhân viên
+        </p>
+        <p>
+            @using (Html.BeginForm("Index", "nhanviens"))
+            {
+                <button class="btn btn-default">Xem chi tiết &raquo;</button>
+
+            }
+        </p>
+        </div>
+        <div class="col-md-4">
+            <h2>Nhiệm vụ</h2>
+            <p>
+                Quản lý nhiệm vụ
+            </p>
+            <p>
+                @using (Html.BeginForm("Index", "nhiemvus"))
+            {
+                    <button class="btn btn-default">Xem chi tiết &raquo;</button>
+
+                }
+            </p>
+        </div>
+    <div class="col-md-4">
+        <h2>Phân công</h2>
+        <p>
+            Phân công nhiệm vụ cho nhân viên
+        </p>
+        <p>
+            @using (Html.BeginForm("Index", "phancongs"))
+            {
+                <button class="btn btn-default">Xem chi tiết &raquo;</button>
+
+            }
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Đoàn du lịch</h2>
+        <p>
+            Quản lý đoàn du lịch
+        </p>
+        <p>
+            @using (Html.BeginForm("Index", "doanduliches"))
+            {
+                <button class="btn btn-default">Xem chi tiết &raquo;</button>
+
+            }
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Danh sách khách hàng của 1 đoàn</h2>
+        <p>
+            Quản lý danh sách khách hàng của 1 đoàn
+        </p>
+        <p>
+            @using (Html.BeginForm("Index", "chitietdoanduliches"))
+            {
+                <button class="btn btn-default">Xem chi tiết &raquo;</button>
+
+            }
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Phiếu thanh toán</h2>
+        <p>
+            Quản lý các phiếu thanh toán
+        </p>
+        <p>
+            @using (Html.BeginForm("Index", "phieuthanhtoans"))
+            {
+                <button class="btn btn-default">Xem chi tiết &raquo;</button>
+
+            }
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Chi tiết các phí thanh toán</h2>
+        <p>
+            Quản lý các chi phí thanh toán
+        </p>
+        <p>
+            @using (Html.BeginForm("Index", "chitietthanhtoans"))
+            {
+                <button class="btn btn-default">Xem chi tiết &raquo;</button>
+
+            }
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Thống kê chi phí</h2>
+        <p>
+            Thống kê chi phí của đoàn du lịch
+        </p>
+        <p>
+            @using (Html.BeginForm("Index", "thongkechiphi"))
+            {
+                <button class="btn btn-default">Xem chi tiết &raquo;</button>
+
+            }
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Thống kê nhân viên</h2>
+        <p>
+            Thống kê số lần đi tour của nhân viên
+        </p>
+        <p>
+            @using (Html.BeginForm("Index", "thongkenhanvien"))
+            {
+                <button class="btn btn-default">Xem chi tiết &raquo;</button>
+
+            }
+        </p>
+    </div>
+    </div>
+  

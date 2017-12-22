@@ -1,0 +1,76 @@
+﻿@model IEnumerable<ENTITIES.chitietthanhtoan>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+@using (Html.BeginForm("Index", "chitietthanhtoans", FormMethod.Get))
+{
+    <div class="form-inline">
+        @Html.Label("Tên đoàn")
+        <div class="form-group input-group-sm">
+            @Html.DropDownList("iddoan", null, htmlAttributes: new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <div>
+                <input type="submit" value="Tìm" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.phieuthanhtoan.doandulich.tendoan)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.idchitiet)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tenchiphi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.soluong)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.gia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.phieuthanhtoan.tenphieu)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.phieuthanhtoan.doandulich.tendoan)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.idchitiet)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tenchiphi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.soluong)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.gia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.phieuthanhtoan.tenphieu)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>
